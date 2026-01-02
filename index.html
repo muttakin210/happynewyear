@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year, Prionty ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Name Entry Screen -->
+    <div class="name-entry-screen" id="nameEntryScreen">
+        <div class="name-entry-card">
+            <h2 class="entry-heading">Enter Your Name</h2>
+            <p class="entry-subtitle">To view this special message 💕</p>
+            <input type="text" id="nameInput" class="name-input" placeholder="Your name..." autocomplete="off">
+            <button id="submitName" class="submit-btn">Enter ✨</button>
+            <p class="error-message" id="errorMessage"></p>
+        </div>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Sparkles Background -->
+    <div class="sparkles-container" id="sparklesContainer"></div>
+    
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Music Control -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">
+            <span id="musicIcon">🎵</span>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" id="mainContent" style="display: none;">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="main-heading glow-text">Happy New Year, Prionty ❤️</h1>
+            <p class="countdown-text">Cheers to a beautiful year with you ✨</p>
+            <div class="year-display">2026</div>
+        </section>
+
+        <!-- Heartfelt Message -->
+        <section class="message-section fade-in">
+            <div class="message-card">
+                <p class="heartfelt-message">
+                    As we step into this new year together, my heart overflows with gratitude and love. 
+                    Every moment with you is a treasure, every smile you share lights up my world. 
+                    You make every day feel like magic, and I can't wait to create more beautiful 
+                    memories with you in 2026. Here's to another year of laughter, love, and endless joy! 💖
+                </p>
+            </div>
+        </section>
+
+        <!-- Why I Love You Section -->
+        <section class="love-reasons-section fade-in">
+            <h2 class="section-heading">Why I Love You, Prionty 💕</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <span class="reason-icon">✨</span>
+                    <p>Your smile brightens even my darkest days</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-icon">💫</span>
+                    <p>Your kindness touches everyone around you</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-icon">🌟</span>
+                    <p>Your laughter is my favorite melody</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-icon">💖</span>
+                    <p>Your presence makes everything better</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-icon">🌹</span>
+                    <p>Your love inspires me every single day</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-icon">⭐</span>
+                    <p>You make my dreams come true</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Letter Button -->
+        <section class="love-letter-section fade-in">
+            <button class="love-letter-btn" id="loveLetter">
+                Love Letter for Prionty 💌
+            </button>
+            <div class="letter-content" id="letterContent">
+                <div class="letter-card">
+                    <h3>My Dearest Prionty,</h3>
+                    <p>
+                        Words cannot fully express how much you mean to me. You are my sunshine on cloudy days, 
+                        my anchor in stormy seas, and my greatest blessing. Every moment spent with you is a 
+                        moment I cherish deeply in my heart.
+                    </p>
+                    <p>
+                        As we welcome this new year, I want you to know that my love for you grows stronger 
+                        with each passing day. You are not just my love, but my best friend, my confidant, 
+                        and my forever person.
+                    </p>
+                    <p>
+                        Thank you for being you, for loving me, and for making life so incredibly beautiful. 
+                        I promise to love you, cherish you, and make you smile every single day of 2026 and beyond.
+                    </p>
+                    <p class="letter-signature">
+                        Forever Yours, Always 💕<br>
+                        <span class="signature-line">With all my love</span>
+                    </p>
+                    <button class="close-letter" id="closeLetter">✕</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing Message -->
+        <section class="closing-section fade-in">
+            <div class="closing-card">
+                <h2 class="closing-heading">Forever Yours, Always 💕</h2>
+                <p class="closing-text">
+                    Here's to us, to our love, and to all the beautiful moments waiting for us in 2026! 
+                    I love you more than words can say. Happy New Year, my darling Prionty! 🎆✨
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Audio Element (Hidden) -->
+    <audio id="bgMusic" loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
