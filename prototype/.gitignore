@@ -1,5 +1,5 @@
 # Generated prototype outputs (regenerable by running prototype.py)
-results/
+results*/
 
 # Model weights (auto-downloaded on first run)
 *.pt
