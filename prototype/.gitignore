@@ -1,0 +1,10 @@
+# Generated prototype outputs (regenerable by running prototype.py)
+results/
+
+# Model weights (auto-downloaded on first run)
+*.pt
+
+# Python
+__pycache__/
+venv/
+*.pyc
